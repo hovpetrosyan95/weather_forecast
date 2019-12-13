@@ -1,0 +1,19 @@
+@import "../../index.scss";
+
+.selected-day {
+  width: 50%;
+  color: white;
+  background-color: $secondaryColor;
+  margin: 0 auto;
+  border: 1px solid white;
+  border-radius: 2%;
+}
+
+.ant-statistic-title {
+  color: white !important;
+  font-size: 20px;
+}
+
+.ant-statistic-content-value {
+  font-size: 18px;
+}
