@@ -35,7 +35,6 @@ function WeatherApp(props) {
         {!isLoading ? (
           <React.Fragment>
             <DayList forecastData={forecastData} />
-
             <SelectedDay />
           </React.Fragment>
         ) : (

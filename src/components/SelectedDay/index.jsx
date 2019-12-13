@@ -18,7 +18,11 @@ function SelectedDay(props) {
   } = props.selectedDay;
 
   return (
-    <div className="selected-day">
+    <div
+      className={
+        Object.keys(props.selectedDay).length ? "selected-day" : "invisible"
+      }
+    >
       <Row gutter={16}>
         <Col span={12}>
           <Statistic

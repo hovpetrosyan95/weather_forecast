@@ -10,3 +10,13 @@
   text-align: center;
   color: white;
 }
+
+.spin {
+  position: absolute;
+  width: 150px;
+  height: 150;
+  left: 50%;
+  top: 50%;
+  margin-left: -75px;
+  margin-top: -75px;
+}
